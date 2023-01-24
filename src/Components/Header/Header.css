@@ -7,4 +7,6 @@ ul {
 header {
   background-color: #e0b1cb;
   color: black;
+  text-align: center;
+  font-weight: bold;
 }

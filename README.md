@@ -16,7 +16,7 @@
 
   - Header
 
-    - three colors: black, 735D38, & BE95C4
+    - three colors: black, 735D78, & BE95C4
     - use NavLink to change colors of background
 
 - URL

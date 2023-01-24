@@ -6,10 +6,11 @@ import { Route, Switch } from 'react-router-dom';
 export default function Main() {
   return (
     <main>
-      <Switch>
-        <Route path="/Black" component={Colors.black} />
-        <Route path="/dustyPurple" component={Colors.dustyPurple} />
-      </Switch>
+      <div className="picked">
+        <Switch>
+          <Route exact path="/rgb/:black/:dustyPurple/:lavender" component={Colors} />
+        </Switch>
+      </div>
     </main>
   );
 }

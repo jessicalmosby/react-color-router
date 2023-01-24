@@ -5,14 +5,15 @@ import './Header.css';
 export default function Header() {
   return (
     <header>
+      <p>Choose your color: there will be a duel.</p>
       <ul>
-        <NavLink className="colors" to="/rgb/0/0/0">
+        <NavLink exact={true} className="colors" to="/rgb/0/0/0">
           Black; like my soul.
         </NavLink>
-        <NavLink className="colors" to="/rgb/115/93/56">
+        <NavLink exact={true} className="colors" to="/rgb/115/93/120">
           Dusty Purple
         </NavLink>
-        <NavLink className="colors" to="/rgb/190/149/196">
+        <NavLink exact={true} className="colors" to="/rgb/190/149/196">
           Lavender; because you classy.
         </NavLink>
       </ul>
