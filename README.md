@@ -1,17 +1,23 @@
 # Plan
 
+## State
+
+- rgb changing
+
 ## Components
 
-- Main.js
+- App.js
 
-  - background with color numbers
-  - Switch Route options
-    -error message
+  - Main.js
 
-- Header
+    - background with color numbers
+    - Switch Route options
+      -error message
 
-  - three colors: black, 735D38, & BE95C4
-  - use Switch and NavLink to change colors of background
+  - Header
+
+    - three colors: black, 735D38, & BE95C4
+    - use NavLink to change colors of background
 
 - URL
   - incorporate useParams into url bar so user may directly choose colors
