@@ -5,8 +5,8 @@ import './Header.css';
 export default function Header() {
   return (
     <header>
-      <p>Choose your color: there will be a duel.</p>
-      <ul>
+      <h3>Choose your color: there will be a duel.</h3>
+      <div className="nav">
         <NavLink exact={true} className="colors" to="/rgb/0/0/0">
           Black; like my soul.
         </NavLink>
@@ -16,7 +16,7 @@ export default function Header() {
         <NavLink exact={true} className="colors" to="/rgb/190/149/196">
           Lavender; because you classy.
         </NavLink>
-      </ul>
+      </div>
     </header>
   );
 }
