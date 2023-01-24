@@ -1,0 +1,10 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header {
+  background-color: #e0b1cb;
+  color: black;
+}
